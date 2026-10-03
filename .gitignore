@@ -1,0 +1,5 @@
+.claude/
+.ai-toolkit/
+/CLAUDE.md
+__pycache__/
+.pytest_cache/
