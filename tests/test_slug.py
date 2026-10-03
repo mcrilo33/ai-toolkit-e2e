@@ -17,6 +17,8 @@ from slug import slugify
         ("", ""),
         ("Python 3.12 rocks", "python-3-12-rocks"),
         ("already-a-slug", "already-a-slug"),
+        ("straße", "stra-e"),
+        ("日本語", ""),
     ],
 )
 def test_slugify(text, expected):
